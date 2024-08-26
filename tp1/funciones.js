@@ -8,7 +8,7 @@ function saludo(name){
 
 //5. Crear una función `esPar` que tome un número como parámetro y retorne `true` si es par, y`false` si es impar.
 
-var numero = 15;
+let numero = 15;
 
 function esPar (numero){
     let rta = false;
