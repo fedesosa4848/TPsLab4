@@ -91,7 +91,7 @@ const arrayPalabras = ["Estoy", "aprendiendo", "JavaScript"];
 let longitud = 6;
 
 function filtrarPorLongitud(arrayPalabras, longitud) {
-    const arrayFiltrado = arrayPalabras.filter(element => element.length > longitud); // Cambié < a >
+    const arrayFiltrado = arrayPalabras.filter(element => element.length > longitud);
     return arrayFiltrado; // Retornar el array filtrado en lugar de console.log
 }
 
