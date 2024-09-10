@@ -8,3 +8,14 @@ for(let i = 0; i <= arrayNumeros.length-1; i ++){
 }
 
 console.log(suma);
+
+const numeros = [1,2,3,[10,20,30],4];
+
+const copia = [...numeros];
+
+console.log(numeros);
+console.log(copia);
+
+const [,,segundo,tercero] = arrayNumeros;
+
+console.log(segundo);

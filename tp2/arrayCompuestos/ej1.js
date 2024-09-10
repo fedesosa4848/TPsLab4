@@ -1,5 +1,16 @@
 //10. Lista de Compras: Crea una lista de compras que incluya productos y sus cantidades.
 
+
+let miArray = new Array(10);
+miArray.sort((a,b) => a - b );
+
+for(let i = 0; i< miArray.length; i++){
+    miArray[i] = Math.random((1,9)*100)
+}
+miArray.sort((a,b) => a - b );
+
+console.log(miArray);
+
 const readline = require('readline-sync');
 
 class Producto {

@@ -12,3 +12,9 @@ Si es positivo, b se coloca antes que a. Si es cero, su posición relativa no ca
 */
 
 console.log(array); 
+
+array.forEach((numero) => {
+    return numero % 2 === 0;
+})
+
+console.log(array)

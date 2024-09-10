@@ -11,7 +11,7 @@ en cuanto hubo que dar crédito a un par de días, hasta que en la víspera de
 un sábado comenzó el hidalgo a hablar de su lanza.`;
 
 const parrafoSplit = parrafo.toLowerCase().split(/\s+/); // Divide el párrafo en palabras
-
+console.log(parrafoSplit);
 function buscarPalabra(palabra) {
     let contador = 0;
     for (let i = 0; i < parrafoSplit.length; i++) {
